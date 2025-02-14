@@ -6,8 +6,8 @@ const result            = `${studentFullName} - ${studentNumber}`;
 
 console.log(result);    //this will print both student name and number uisng only single code line.
 
-const headerContent     = document.querySelector("h1");
+const headerContent     = document.querySelector('h1');
 
 headerContent.innerHTML = `${studentFullName} - ${studentNumber}`;
 
-headerContent.classList.add("headingPrimary");
+headerContent.classList.add('headingPrimary');
